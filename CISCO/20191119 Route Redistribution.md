@@ -1,6 +1,7 @@
 # 路由重發佈(Route Redistribution)
 
 ![](image/20191119b.png)
+
 https://www.bilibili.com/video/av31147932?from=search&seid=13034008943090492410
 
 1. 直連
@@ -29,8 +30,9 @@ ospf : redistribute rip (eigrp 90) subnets
 
 
 # Vlan
-![](image/20191119d.jpg)
-![](image/20191119e.jpg)
+<img src="image/20191119d.jpg" width = "300"  />
+
+<img src="image/20191119e.jpg" width = "300"  />
 
 ![](image/20191119f.PNG)
 ```
