@@ -30,9 +30,8 @@ ospf : redistribute rip (eigrp 90) subnets
 
 
 # Vlan
-<img src="image/20191119d.jpg" width = "300"  />
-
-<img src="image/20191119e.jpg" width = "300"  />
+<img src="image/20191119d.jpg" width = "300"  align="left"/>
+<img src="image/20191119e.jpg" width = "300"  align="right"/>
 
 ![](image/20191119f.PNG)
 ```
