@@ -1,7 +1,7 @@
 # 建立 Docker Swarm
 https://docs.docker.com/engine/swarm/
+<img src="image/20191119c.PNG" width="500"/>
 
-![](image/20191119c.PNG)
 vm1為managerV
 ```
 # docker swarm init --advertise-addr 192.168.56.2
