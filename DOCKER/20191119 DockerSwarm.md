@@ -84,7 +84,10 @@ http://192.168.56.3:5555/
 ![](image/20191119b.PNG)
 > 我vm1 是沒有開啟網站的，但網址輸入192.168.56.2:5555也可以連到網頁，這是奇怪的!
 
-用busybox共用network來查看網路狀態
+
+\-----------------
+
+可用busybox共用network來查看網路狀態
 ```
 # docker ps
 CONTAINER ID        IMAGE               COMMAND              CREATED             STATUS              PORTS               NAMES
