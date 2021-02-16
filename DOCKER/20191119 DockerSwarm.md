@@ -4,7 +4,7 @@
 
 https://docs.docker.com/engine/swarm/
 
-vm1為managerV
+vm1為manager
 ```
 # docker swarm init --advertise-addr 192.168.56.2
 Swarm initialized: current node (hjbgw0w0u3hu9974gtxb1kofr) is now a manager.
