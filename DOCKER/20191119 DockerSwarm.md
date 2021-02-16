@@ -1,6 +1,8 @@
 # 建立 Docker Swarm
-https://docs.docker.com/engine/swarm/
+
 <img src="image/20191119c.PNG" width="500"/>
+
+https://docs.docker.com/engine/swarm/
 
 vm1為managerV
 ```
