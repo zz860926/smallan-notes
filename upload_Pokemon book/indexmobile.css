@@ -1,0 +1,41 @@
+body {
+        background-color: #cccccc;
+        background-image: url("image/PokemonBall.png");
+        background-repeat: no-repeat;
+        background-position: 80% 40%; 
+        background-size: 1000px;
+
+    }
+#logo{
+    position:relative;
+    left:100px;
+    top:350px;
+
+}
+form{
+    position:relative;
+    left:50px;
+    top:650px;
+    }
+input{padding:5px 15px;
+        border:2px black solid;
+       height:70px;
+       width: 350px;
+       font-size:25px;}
+a{      text-decoration:none;}
+form a{      color:black;
+            font-size:50px;}      
+.button {
+            width: 150px;
+            height: 70px;
+            font-size:50px;
+            }
+footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 20px;
+        background-color: #cccccc;
+        width: 100%;
+
+        }

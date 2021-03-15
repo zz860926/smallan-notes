@@ -1,0 +1,127 @@
+table, th, td { 
+        border: 1px solid black;
+        text-align:center;
+        height:25;
+        border-color:#FF7F50}
+table{  border-collapse: collapse;}
+th{     background:#FF7F50;}
+.title{
+        height:50; font-size:20px;
+}
+#Content{
+        width: 1000px;
+        left:300px;}
+#leftcontent {
+        float: left;
+}
+#rightcontent {
+        float: left;
+}
+#leftImage{    
+        position: absolute;
+        top:400px;
+    }
+#rightImage{    
+        position: absolute;
+        margin-left: 1150px;
+        top:500px;
+    }
+#mainTable{              
+        width:320px;
+    }
+#skillTable{
+        width:500px;
+    }
+footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 20px;
+        background-color: white;
+        width: 100%;
+        }
+a{      text-decoration:none;}
+.PM{    background:#FF9912;
+        color:white;
+}
+.SM{
+        background:#808069;
+        color:white;
+}
+.SpecialM{
+        background:#2828FF;
+        color:white;
+}
+
+.NT{
+        background:#808A87;
+        color:white;
+}
+.FightT{
+        background:#842B00;
+        color:white;
+}
+.FlyT{
+        background:#84C1FF;
+        color:white;
+}
+.PT{
+        background:#8F4586;
+        color:white;
+}
+.GroundT{
+        background:#FFE153;
+        color:white;
+}
+.RT{
+        background:#AFAF61;
+        color:white;
+}
+.BT{
+        background:#A6A600;
+        color:white;
+}
+.GhT{
+        background:#8080C0;
+        color:white;
+}
+.ST{
+        background:#d0d0d0;
+        color:white;
+}
+.FireT{
+        background:#FF2D2D;
+        color:white;
+}
+.WaterT{
+        background:#0080FF;
+        color:white;
+}
+.GrassT{
+        background:#00A600;
+        color:white;
+}
+.ET{
+        background:#FFD306;
+        color:white;
+}
+.PT{
+        background:#FF00FF;
+        color:white;
+}
+.IT{
+        background:#80FFFF;
+        color:white;
+}
+.DT{
+        background:#921AFF;
+        color:white;
+}
+.DarkT{
+        background:#743A3A;
+        color:white;
+}
+.FairyT{
+        background:#FFBFFF;
+        color:white;
+}

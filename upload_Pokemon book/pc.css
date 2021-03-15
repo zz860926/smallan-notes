@@ -1,0 +1,32 @@
+
+        a{text-decoration:none;}
+        table{
+                margin:30px; 
+                width:400px;
+                border-collapse: collapse;
+        }
+        table, th, td { 
+                text-align:center;
+                border: 1px solid black;
+                border-color:#FF7F50}
+        th{     height:30px;background:#FF7F50;
+                height:40; font-size:18px;}
+        #Content{
+                 width: 400px;
+                 left:580px;}
+        #leftImage{ 
+                position: absolute;
+                margin-left: 50px;
+                top:200px;
+        }
+        footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                height: 20px;
+                background-color: white;
+                width: 100%;
+                }
+        img{
+            width: 40px;
+         }

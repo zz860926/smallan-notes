@@ -1,0 +1,19 @@
+a{text-decoration:none;}
+table{
+        margin:0 auto; 
+        width:100%;
+        border-collapse: collapse;
+}
+table, th, td { 
+    text-align:center;
+    border: 1px solid black;
+    border-color:#FF7F50}
+th{     height:85px;background:#FF7F50;
+        font-size:42px;}   
+td{
+    height:80px;
+    font-size:40px;
+}
+img{
+    width: 70px;
+}

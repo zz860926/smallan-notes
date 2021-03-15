@@ -1,4 +1,4 @@
-# Vlan example
+# Vlan
 
 ## example 1
 
