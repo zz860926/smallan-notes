@@ -4,6 +4,10 @@
 #### R1
 先設定好ip
 ```
+Router>enable
+Router#config t
+Router(config)#hostname R1
+R1(config-if)#int e0/0
 R1(config-if)#ip addr 12.1.1.1 255.255.255.0
 R1(config-if)#no shut
 ```
@@ -75,7 +79,7 @@ R1(config)#do show ip static route 0.0.0.0/0
 
 ping 8.8.8.8
 ```
-R1(config)#ping 8.8.8.8 
+R1(config)#do ping 8.8.8.8 
 ```
 > 會傳到R2
 

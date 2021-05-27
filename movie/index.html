@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>movie</title>
+</head>
+<body>
+    
+    <div id="movieList"></div>
+    <script>
+        let log = console.log;
+        let movieObj = new Map();
+        let movie1 = {
+            'name' : 'going the distance',
+            'c_name' : '真愛零距離',
+            'description' : '艾琳（茱兒芭莉摩 飾）邂逅了機智風趣但口無遮攔的迷人單身男子葛瑞特（賈斯汀隆 飾），兩人很快就來電，可是夏季過後，艾琳就要回舊金山的家，\
+                            葛瑞特則會待在紐約市工作，因此起初兩人對於這段戀曲的後續都沒抱太大的希望。然而，在他們整個夏季熱戀的6週期間，兩人的感情急速加溫，\
+                            使得他們都變得不確定是否想要結束這段緣份。當他們展開遠距離戀愛時，一方面，葛瑞特的朋友們柏克斯（傑森蘇戴基斯 飾）及丹（查理戴 飾）\
+                            取笑他每次飛行前都施行卡洛里減重計劃及整天抱著手機講不停，因為他們不想失去他們的最好酒友又陷入一場瘋狂的戀愛。另一方面，艾琳那神經緊張、過度保護的已婚姊姊珂琳娜（克麗絲汀娜雅柏蓋特 飾）\
+                            也試圖勸阻艾琳又一頭栽入感情而重蹈覆轍。\n\n不過即使他們相隔北美大陸的東西兩岸，加上反對他們交往的朋友和家人們一再阻撓，還有一些突如其來的誘惑，這對戀人仍藉由不斷的簡訊、性暗示及深夜熱線，彷彿在對方身上找到真愛，他們可能真的能夠長久走下去。',
+            'release_date' : '2010-08-27',
+            'photo_path' : 'image/going the distance'
+        }
+        movieObj.set('going the distance',movie1)
+        
+        log(movieObj)
+        let movieList = document.getElementById('movieList');
+        movieObj.forEach((value,key) => {
+            movieList.insertAdjacentHTML('beforeend',`<div>${value.c_name}</div> <div> ${value.description}</div>`)
+        })
+        // for(let prop in movieObj){
+        //     log(movieObj[prop].name);
+        //     movieList.insertAdjacentHTML('beforeend',`<div>${movieObj[prop].c_name}</div> <div> ${movieObj[prop].description}</div>`);
+        // }
+        
+    </script>
+    
+</body>
+</html>
