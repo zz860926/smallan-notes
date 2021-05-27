@@ -29,19 +29,3 @@ ospf : redistribute rip (eigrp 90) subnets
 ![](image/20191119cc.PNG)
 
 
-# Vlan
-<img src="image/20191119d.jpg" width = "300"  align="left"/>
-<img src="image/20191119e.jpg" width = "300"  align="center"/>
-
-![](image/20191119f.PNG)
-```
-Switch(config-if)#int 0/0
-Switch(config-if)#switchpoint mode access
-Switch(config-if)#switchpoint access vlan 10
-Switch(config-if)#int 0/1
-Switch(config-if)#switchpoint mode access
-Switch(config-if)#switchpoint access vlan 20
-.
-.
-```
-vlan 10 環境下的VPC6、VPC8可以互ping，而VPC6、ping無法到VPC7
