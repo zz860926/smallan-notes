@@ -13,6 +13,8 @@
 
 * [路由重發佈(Route Redistribution)](https://github.com/zz860926/smallan-notes/blob/master/CISCO/20191119%20Route%20Redistribution.md)
 
+* [虛擬區域網路Virtual LAN(VLAN)](https://github.com/zz860926/smallan-notes/blob/master/CISCO/20191120Vlan.md)
+
 * [Trunk](https://github.com/zz860926/smallan-notes/blob/master/CISCO/20191126Trunk.md)
 
 * [Vlan and STP](https://github.com/zz860926/smallan-notes/blob/master/CISCO/20191203Vlan%20example.md)
